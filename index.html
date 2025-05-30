@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Daily Motivation</title>
+  <link rel="icon" type="image/x-icon" href="image\favicon.ico">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>Daily Motivation</h1>
+    <p id="quote" class="explosive-text" >Click the button for a motivational quote!</p>
+    <button class="glow-on-hover" onclick="generateQuote()" type="button">Get Quote</button>
+    <button class="glow-on-hover"onclick="copyQuote()">Copy Quote</button>
+    
+  </div>
+  <div id="message" class="message"></div>
+
+  
+  
+  
+  <form id="suggestForm" class="suggest-form">
+    <h2>Suggest a Quote</h2>
+    <textarea name="message" placeholder="Write your quote here..." required></textarea>
+    <button class="glow-on-hover" type="submit">Send</button>
+  </form>
+  
+  <div id="message" class="message">Thank you for your suggestion!</div>
+  
+  
+  
+
+  
+  <div class="stars"></div>
+<div class="shooting-star"></div>
+<div class="shooting-star"></div>
+<div class="shooting-star"></div>
+<div class="shooting-star"></div>
+<div class="shooting-star"></div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>

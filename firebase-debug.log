@@ -1,0 +1,99 @@
+[debug] [2025-05-30T09:05:00.562Z] ----------------------------------------------------------------------
+[debug] [2025-05-30T09:05:00.564Z] Command:       d:\node\node.exe C:\Users\MY PC\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-05-30T09:05:00.564Z] CLI Version:   14.5.0
+[debug] [2025-05-30T09:05:00.564Z] Platform:      win32
+[debug] [2025-05-30T09:05:00.564Z] Node Version:  v22.16.0
+[debug] [2025-05-30T09:05:00.564Z] Time:          Fri May 30 2025 12:05:00 GMT+0300 (Israel Daylight Time)
+[debug] [2025-05-30T09:05:00.564Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-05-30T09:05:00.568Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-05-30T09:05:00.568Z] > authorizing via signed-in user (amirnijim100@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\MY PC\OneDrive\Desktop\daily-motivation
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2025-05-30T09:07:09.533Z] Checked if tokens are valid: true, expires at: 1748599480631
+[debug] [2025-05-30T09:07:09.534Z] Checked if tokens are valid: true, expires at: 1748599480631
+[debug] [2025-05-30T09:07:09.534Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2025-05-30T09:07:09.534Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"daily-motivation","name":"daily-motivation"}
+[debug] [2025-05-30T09:07:10.623Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 409
+[debug] [2025-05-30T09:07:10.624Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":409,"message":"Requested entity already exists","status":"ALREADY_EXISTS"}}
+[debug] [2025-05-30T09:07:10.754Z] FirebaseError: Request to https://cloudresourcemanager.googleapis.com/v1/projects had HTTP Error: 409, Requested entity already exists
+    at responseToError (C:\Users\MY PC\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:52:12)
+    at RetryOperation._fn (C:\Users\MY PC\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:312:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to create project because there is already a project with ID daily-motivation. Please try again with a unique project ID.
+[debug] [2025-05-30T09:08:26.205Z] ----------------------------------------------------------------------
+[debug] [2025-05-30T09:08:26.207Z] Command:       d:\node\node.exe C:\Users\MY PC\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-05-30T09:08:26.207Z] CLI Version:   14.5.0
+[debug] [2025-05-30T09:08:26.207Z] Platform:      win32
+[debug] [2025-05-30T09:08:26.207Z] Node Version:  v22.16.0
+[debug] [2025-05-30T09:08:26.207Z] Time:          Fri May 30 2025 12:08:26 GMT+0300 (Israel Daylight Time)
+[debug] [2025-05-30T09:08:26.208Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-05-30T09:08:26.212Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-05-30T09:08:26.212Z] > authorizing via signed-in user (amirnijim100@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\MY PC\OneDrive\Desktop\daily-motivation
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2025-05-30T09:09:01.747Z] Checked if tokens are valid: true, expires at: 1748599480631
+[debug] [2025-05-30T09:09:01.747Z] Checked if tokens are valid: true, expires at: 1748599480631
+[debug] [2025-05-30T09:09:01.748Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2025-05-30T09:09:01.748Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"daily-motivation-123abc","name":"Daily-Motivation"}
+[debug] [2025-05-30T09:09:02.810Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 200
+[debug] [2025-05-30T09:09:02.810Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"name":"operations/create_project.global.5855312493093506075"}
+[debug] [2025-05-30T09:09:02.811Z] Checked if tokens are valid: true, expires at: 1748599480631
+[debug] [2025-05-30T09:09:02.811Z] Checked if tokens are valid: true, expires at: 1748599480631
+[debug] [2025-05-30T09:09:02.811Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.5855312493093506075 [none]
+[debug] [2025-05-30T09:09:03.703Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.5855312493093506075 200
+[debug] [2025-05-30T09:09:03.703Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.5855312493093506075 {"name":"operations/create_project.global.5855312493093506075"}
+[debug] [2025-05-30T09:09:04.210Z] [Project Creation Poller] Retrying task index 0
+[debug] [2025-05-30T09:09:04.210Z] Checked if tokens are valid: true, expires at: 1748599480631
+[debug] [2025-05-30T09:09:04.210Z] Checked if tokens are valid: true, expires at: 1748599480631
+[debug] [2025-05-30T09:09:04.210Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.5855312493093506075 [none]
+[debug] [2025-05-30T09:09:04.423Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.5855312493093506075 200
+[debug] [2025-05-30T09:09:04.423Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.5855312493093506075 {"name":"operations/create_project.global.5855312493093506075","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","gettable":true,"ready":true},"done":true,"response":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.Project","projectNumber":"419872412498","projectId":"daily-motivation-123abc","lifecycleState":"ACTIVE","name":"Daily-Motivation","createTime":"2025-05-30T09:09:04.435295Z"}}
+[debug] [2025-05-30T09:09:04.424Z] Checked if tokens are valid: true, expires at: 1748599480631
+[debug] [2025-05-30T09:09:04.424Z] Checked if tokens are valid: true, expires at: 1748599480631
+[debug] [2025-05-30T09:09:04.424Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/daily-motivation-123abc:addFirebase [none]
+[debug] [2025-05-30T09:09:05.672Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/daily-motivation-123abc:addFirebase 403
+[debug] [2025-05-30T09:09:05.672Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/daily-motivation-123abc:addFirebase {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2025-05-30T09:09:05.673Z] Request to https://firebase.googleapis.com/v1beta1/projects/daily-motivation-123abc:addFirebase had HTTP Error: 403, The caller does not have permission
+[debug] [2025-05-30T09:09:05.856Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/daily-motivation-123abc:addFirebase had HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\MY PC\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:52:12)
+    at RetryOperation._fn (C:\Users\MY PC\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:312:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to add Firebase to Google Cloud Platform project. See firebase-debug.log for more info.
